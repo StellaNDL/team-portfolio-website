@@ -97,9 +97,40 @@ nav .right-side span {
     }
 }
 .skills {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 50px;
     margin-bottom: 100px;
+}
+.skills h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.skills p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.skills .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.skills .cells .cell img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.hobbies ul {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+footer {
+    text-align: center;
+    color: gray;
 }
