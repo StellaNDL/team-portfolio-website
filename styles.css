@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-}
+
 body {
     font-weight: 200px;
     font-family: Cinzel;
     color: #1A1A1A;
+    background-color: #F4F1E8;
+}
+.main {
+    background-color: #FFFFFF;
+    margin: 0 45px;
+    border-radius: 20px;
 }
 a {
     text-decoration: none;
@@ -19,8 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    height: 60px;
+    padding: 0 50px;
+    height: 80px;
 
 }
 nav .left-side a{
@@ -41,14 +45,12 @@ nav .right-side span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    margin: 30px 0;
-    gap: 40px;
-    margin-bottom: 100px;
+    padding: 0 50px;
+    margin: 50px 0;
+    gap: 30px;
+
 }
-.about .bio {
-    flex: 5;
-}
+
 .about h2 {
     font-size: 45px;
 }
@@ -62,14 +64,14 @@ nav .right-side span {
     border-radius: 50%;
 }
 
-@media (max-width:500px) {
+@media (max-width:400px) {
     /* SECTION 1 */
     .about .bio h2 {
         font-size: 35px;
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:400px) {
     .about {
         flex-direction: column-reverse;
     }
@@ -93,4 +95,11 @@ nav .right-side span {
     .about .bio h2 {
         font-size: 30px;
     }
+}
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: 100px;
 }
